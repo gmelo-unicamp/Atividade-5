@@ -1,0 +1,89 @@
+body{
+	background: pink;
+	margin: 5%;
+}
+
+header{
+	background: white;
+	padding-bottom: 30px;
+	text-align: center;
+
+}
+nav{
+	background: white;
+	padding-bottom: 30px;
+	text-align: center;
+
+}
+
+div{
+	display: inline-block;
+	background: white;
+	width: 40%;
+	border: solid 2px black;
+	margin: 50px;
+	height: 150px;
+	float: left;
+	padding-bottom: 4px;
+	text-align: center;
+	font-family: Trebuchet MS;
+
+
+}
+m{
+
+	font-style: italic;
+	font-variant: small-caps;
+	font: italic small-caps bold 55px "Comic Sans MS", sans-serif;
+	text-shadow: 10px 10px 10px;
+
+}
+
+.full{
+	width: 100%;
+	padding: 6px;
+	text-align: center;
+	height: 70px;
+
+}
+
+p{
+	display: inline-block;
+	background: white;
+	width: 90%;
+	border: solid 2px black;
+	margin: 50px;
+	height: 40px;
+	float: left;
+	padding-bottom: 4px;
+	text-align: center;
+	font-style: italic;
+	font-family: serif;
+
+}
+  div{
+
+transition-property: width, height;
+}
+
+div:hover {
+  width: 300px;
+  height: 300px;
+
+
+}
+
+div:hover {
+  background-color: gray;
+}
+
+.target {
+  font-size: 40px;
+  transition-property: font-size;
+  transition-duration: 4s;
+}
+
+.target:hover {
+  font-size: 70px;
+}
+
