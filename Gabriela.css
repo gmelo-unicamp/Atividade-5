@@ -1,0 +1,33 @@
+body{
+	background: pink;
+	margin: 5%;
+}
+
+header{
+	background: white;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+
+div{
+	display: inline-block;
+	background: white;
+	width: 40%;
+	border: solid 2px black;
+	margin: 50px;
+	height: 150px;
+	float: left;
+	padding-bottom: 4px;
+	text-align: center;
+}
+
+.full{
+	width: 100%;
+	padding: 6px;
+	text-align: center;
+	height: 70px;
+
+}
+
+	
